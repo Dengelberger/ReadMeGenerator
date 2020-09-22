@@ -1,0 +1,12 @@
+{
+	"name": "Deege",
+	"title": "My Readme Generator",
+	"description": "This project is to create prompts to populate a readme file.",
+	"installInstructions": "There are no special instructions at this time.",
+	"usage": "This program will be used every time a new project is created.\r\n",
+	"contribution": "You can contribute by sharing ideas on things that should be added to the file.",
+	"test": "There are no tests for this project at this time.\r\n",
+	"license": "MIT",
+	"gitHubName": "Dengelberger",
+	"email": "dengelberger@gmail.com"
+}
