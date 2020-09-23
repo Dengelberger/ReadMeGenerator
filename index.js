@@ -1,7 +1,8 @@
 // modules needed for this project
 
-var inquirer = require("inquirer");
-var fs = require('fs');
+const inquirer = require("inquirer");
+const fs = require('fs');
+const generateMarkdwon = require("./utils/generateMarkdown");
 
 // array of questions for user
 const questions =
@@ -20,8 +21,7 @@ const questions =
 
 // function to write README file - see below at the end of the inquirer prompt for the creation of a .jsonf file.
 
-function writeToFile(fileName, data) {
-}
+
 
 // function to initialize program
 function init() {
@@ -34,6 +34,8 @@ init();
 // inquirer prompt array drawing from questions array, above
 
 //  HOW DO I ADD SOME INFORMATIONAL PROMPT IN BETWEEN? TO USE EDITOR TYPE THE USER HAS TO KNOW HOW TO GET OUT OF THE EDITOR WHEN FINISHED.
+var instructions = "Welcome to my good README generator. As you input your information you will be directed to a text editor at times. When you finish entering your text, please save and exit your editor to continue."
+console.log(instructions);
 
 inquirer.prompt([
     {
@@ -87,17 +89,15 @@ inquirer.prompt([
         name: "email",
         message: questions.emailQuest
     }
-]).then(function (data) {
+]).then(function writeToFile(fileName, data) {
+    let markdown = generateMarkdown(data);
+    fs.writeFile("MYREADME.md", markdown, function() {
+       })
 
-    var filename = data.name.toLowerCase().split(' ').join('') + ".json";
-
-    fs.writeFile(filename, JSON.stringify(data, null, '\t'), function (err) {
-
-        if (err) {
-            return console.log(err);
+         if(err) {
+            return console.log(error);
         }
 
         console.log("Success!");
+    ;
     })
-});
-
