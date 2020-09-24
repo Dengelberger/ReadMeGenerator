@@ -1,4 +1,16 @@
 // function to generate markdown for README
+function renderLicense(license) {
+  if (license == "MIT") {
+    return "https://choosealicense.com/licenses/mit/"
+  } else if (license == "APACHE 2.0") {
+    return "https://www.apache.org/licenses/LICENSE-2.0.txt"
+  } else if (license == "GPL 3.0") {
+    return "link to GPLhttps://choosealicense.com/licenses/gpl-3.0/ goes here"
+  } else if (license == "BSD 3") {
+    return "link to BSDhttps://choosealicense.com/licenses/bsd-3-clause-clear/ goes here"
+  } return "No license has been selected."
+}
+
 function generateMarkdown(data) {
 
   return `# ${data.title}
@@ -29,7 +41,7 @@ function generateMarkdown(data) {
 
   ## License 
   
-  ${data.license}
+  ${renderLicense(data.license)}
 
   ## Contributing 
   
