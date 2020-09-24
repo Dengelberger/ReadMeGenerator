@@ -1,6 +1,6 @@
 # My Awesome README Generator
 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description 
   
@@ -27,11 +27,12 @@
   This program is used to generate a README.md file called MYREADME.md.  Here are some pictures of what the command line prompts look like as well as the finished product.
 
 
+
   ## License 
 
-  This project is licensed under the GPL 3.0 license.
+  This project is licensed under the MIT license.
 
-  Click here for the GPL 3.0 license: https://choosealicense.com/licenses/gpl-3.0/
+  Click here for the MIT license: https://choosealicense.com/licenses/mit/
 
   ## Contributing 
   
@@ -41,7 +42,6 @@
   ## Tests 
   
   In the future this section will contain information on how to run tests of the project. This material is not yet covered in class.
-
 
   ## Questions 
 
