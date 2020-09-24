@@ -1,7 +1,8 @@
-# My Awesome Readme Generator
+# Baxter's Bizzare Readme Generator
 
-  ## Description duwa ditty ditty dum ditty do
-
+  ## Description 
+  
+  woof woof woof woof
 
   ## Table of Contents
 
@@ -13,15 +14,25 @@
   * [Questions](#questions)
  
 
-  ## Installation I have no instructions for installing this program.
+  ## Installation 
+  
+  bark bark bark bark
 
-  ## Usage This program will be used to generate a readme file that will make the world explode.
+  ## Usage 
+  
+  grr grr grr grr
 
-  ## License MIT
+  ## License 
+  
+  MIT
 
-  ## Contributing Be afraid! Be very afraid!
+  ## Contributing 
+  
+  howl howl howl howl
 
-  ## Tests I hate standardized tests!
+  ## Tests 
+  
+  arf arf arf arf
 
   ## Questions 
 

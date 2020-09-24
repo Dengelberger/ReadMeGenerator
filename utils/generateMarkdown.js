@@ -2,7 +2,9 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## Description ${data.description}
+  ## Description 
+  
+  ${data.description}
 
   ## Table of Contents
 
@@ -14,15 +16,25 @@ function generateMarkdown(data) {
   * [Questions](#questions)
  
 
-  ## Installation ${data.installInstructions}
+  ## Installation 
+  
+  ${data.installInstructions}
 
-  ## Usage ${data.usage}
+  ## Usage 
+  
+  ${data.usage}
 
-  ## License ${data.license}
+  ## License 
+  
+  ${data.license}
 
-  ## Contributing ${data.contribution}
+  ## Contributing 
+  
+  ${data.contribution}
 
-  ## Tests ${data.test}
+  ## Tests 
+  
+  ${data.test}
 
   ## Questions 
 
