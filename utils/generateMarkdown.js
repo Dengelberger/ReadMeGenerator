@@ -13,13 +13,13 @@ function renderLicense(license) {
 
 function renderLogo(license) {
   if (license == "MIT") {
-    return "![License](https://img.shields.io/static/v1?label=MIT&message=license&color=red"
+    return "![License](https://img.shields.io/static/v1?label=MIT&message=license&color=red)"
   } else if (license == "APACHE 2.0") {
-    return "![License](https://img.shields.io/static/v1?label=APACHE&message=license&color=red"
+    return "![License](https://img.shields.io/static/v1?label=APACHE&message=license&color=red)"
   } else if (license == "GPL 3.0") {
-    return "![License](https://img.shields.io/static/v1?label=GPL3&message=license&color=red"
+    return "![License](https://img.shields.io/static/v1?label=GPL3&message=license&color=red)"
   } else if (license == "BSD 3") {
-    return "![License](https://img.shields.io/static/v1?label=BSD3&message=license&color=red"  
+    return "![License](https://img.shields.io/static/v1?label=BSD3&message=license&color=red)"  
   } return "No license has been selected."
 
 
