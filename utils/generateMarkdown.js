@@ -1,9 +1,9 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  
+
   return `# ${data.title}
 
-  https://img.shields.io/static/v1?label=${data.license}&message=license&color=red
+  ![License](https://img.shields.io/static/v1?label=${data.license}&message=license&color=red)
 
   ## Description 
   
@@ -41,7 +41,7 @@ function generateMarkdown(data) {
 
   ## Questions 
 
-  Questions or comments about this README.md file? Contact me at ${data.email} or visit my GitHub at https://github.com/${data.github}.
+  Questions or comments about this README.md file? Contact me at ${data.email} or visit my GitHub at https://github.com/${data.gitHubName}.
 
 `;
 }
