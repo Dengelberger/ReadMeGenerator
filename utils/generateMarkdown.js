@@ -13,13 +13,13 @@ function renderLicense(license) {
 
 function renderLogo(license) {
   if (license == "MIT") {
-    return "![License](https://img.shields.io/static/v1?label=MIT&message=license&color=red)"
+    return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
   } else if (license == "APACHE 2.0") {
-    return "![License](https://img.shields.io/static/v1?label=APACHE&message=license&color=red)"
+    return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
   } else if (license == "GPL 3.0") {
-    return "![License](https://img.shields.io/static/v1?label=GPL3&message=license&color=red)"
+    return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
   } else if (license == "BSD 3") {
-    return "![License](https://img.shields.io/static/v1?label=BSD3&message=license&color=red)"  
+    return "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"  
   } return "No license has been selected."
 
 

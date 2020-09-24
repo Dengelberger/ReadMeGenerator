@@ -1,6 +1,6 @@
 # My Awesome README Generator
 
-  ![License](https://img.shields.io/static/v1?label=APACHE&message=license&color=red)
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
   ## Description 
   
@@ -29,9 +29,9 @@
 
   ## License 
 
-  This project is licensed under the APACHE 2.0 license.
+  This project is licensed under the GPL 3.0 license.
 
-  Click here for the Apache 2.0 license: https://www.apache.org/licenses/LICENSE-2.0.txt
+  Click here for the GPL 3.0 license: https://choosealicense.com/licenses/gpl-3.0/
 
   ## Contributing 
   
