@@ -40,17 +40,15 @@
 
 ![Generator Page 3](assets/GeneratorPage3.png)
 
-![Command Prompts Page 1](assets/CommandPrompt1.png)
+![Command Prompts Page 1](assets/CommandPrompts1.png)
 
-![Command Prompts Page 2](assets/CommandPrompt2.png)
+![Command Prompts Page 2](assets/CommandPrompts2.png)
 
-![Command Prompts Page 3](assets/CommandPrompt3.png)
+![Command Prompts Page 3](assets/CommandPrompts3.png)
 
-![Command Prompts Page 4](assets/CommandPrompt4.png)
+![Command Prompts Page 4](assets/CommandPrompts4.png)
 
-![Command Prompts Page 5](assets/CommandPrompt5.png)
-
-![Command Prompts Page 1](assets/CommandPrompt1.png)
+![Command Prompts Page 5](assets/CommandPrompts5.png)
 
 ![Post Prompt Console Log](assets/PostPromptConsoleLog.png)
 
