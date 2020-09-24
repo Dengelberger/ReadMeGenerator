@@ -26,7 +26,7 @@
   
   This program is used to generate a README.md file called MYREADME.md.  Here are some pictures of what the command line prompts look like as well as the finished product.
   
-  And here is a video of the program being used:<iframe src="https://drive.google.com/file/d/1Ktjv-KMjpEyKEM7g5jvFL-FzHpi24nIE/preview" width="640" height="480"></iframe>
+  And here is a link to a video of the program being used: "https://drive.google.com/file/d/1Ktjv-KMjpEyKEM7g5jvFL-FzHpi24nIE/preview"
 
 
   ## License 
