@@ -1,6 +1,9 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+  
   return `# ${data.title}
+
+  https://img.shields.io/static/v1?label=${data.license}&message=license&color=red
 
   ## Description 
   
@@ -37,6 +40,8 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions 
+
+  Questions or comments about this README.md file? Contact me at ${data.email} or visit my GitHub at https://github.com/${data.github}.
 
 `;
 }

@@ -1,8 +1,10 @@
-# Baxter's Bizzare Readme Generator
+# My Awesome README Generator
+
+  https://img.shields.io/static/v1?label=MIT&message=license&color=red
 
   ## Description 
   
-  woof woof woof woof
+  I am getting very close to this being the end of the assignment.  If I can figure out the badges I will have it made!  This is nearing the end of my test runs.
 
   ## Table of Contents
 
@@ -16,11 +18,11 @@
 
   ## Installation 
   
-  bark bark bark bark
+  Access the README generator by pulling it from my GitHub repository. More notes to follow on the demo.  
 
   ## Usage 
   
-  grr grr grr grr
+  This program will be used to generate a README.md file whenever I am adding a new project to my GitHub repository.
 
   ## License 
   
@@ -28,11 +30,13 @@
 
   ## Contributing 
   
-  howl howl howl howl
+  You can contribute to the success of this application by commenting to the email listed below.
 
   ## Tests 
   
-  arf arf arf arf
+  I have no idea how to test this product other than to sit here doing what I am already doing, which is adding a bunch of inputs.
 
   ## Questions 
+
+  Questions or comments about this README.md file? Contact me at dengelberger@gmail.com or visit my GitHub at https://github.com/undefined.
 
