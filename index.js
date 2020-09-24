@@ -2,7 +2,7 @@
 
 const inquirer = require("inquirer");
 const fs = require('fs');
-const generateMarkdwon = require("./utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
 const questions =
@@ -89,15 +89,15 @@ inquirer.prompt([
         name: "email",
         message: questions.emailQuest
     }
-]).then(function writeToFile(fileName, data) {
-    let markdown = generateMarkdown(data);
-    fs.writeFile("MYREADME.md", markdown, function() {
-       })
+]).then(function (answer) {
+    let markdown = generateMarkdown(answer);
+    
+    console.log(markdown);
 
-         if(err) {
-            return console.log(error);
-        }
+    fs.writeFile("MYREADME.md", markdown, (err) => {
+       
+         if (err)  
+         console.log(error);
 
         console.log("Success!");
-    ;
-    })
+})})
