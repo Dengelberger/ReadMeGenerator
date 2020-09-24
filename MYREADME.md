@@ -1,6 +1,6 @@
 # My Awesome README Generator
 
-  ![License](https://img.shields.io/static/v1?label=BSD 3&message=license&color=red)
+  ![License](https://img.shields.io/static/v1?label=APACHE&message=license&color=red
 
   ## Description 
   
@@ -21,14 +21,17 @@
   
   Access the README generator by pulling the files  from my GitHub repository.  You can run the generator from your terminal command line by typing "node index.js". You will be given a series of prompts to follow.  When it is done, you will have created a new file called MYREADME.md where you can see all of your responses.
 
+
   ## Usage 
   
   This program is used to generate a README.md file called MYREADME.md.  Here are some pictures of what the command line prompts look like as well as the finished product.
 
 
   ## License 
-  
-  link to BSDhttps://choosealicense.com/licenses/bsd-3-clause-clear/ goes here
+
+  This project is licensed under the APACHE 2.0 license.
+
+  Click here for the Apache 2.0 license: https://www.apache.org/licenses/LICENSE-2.0.txt
 
   ## Contributing 
   
@@ -37,8 +40,7 @@
 
   ## Tests 
   
-  
-In the future this section will contain information on how to run tests of the project. This material is not yet covered in class.
+  In the future this section will contain information on how to run tests of the project. This material is not yet covered in class.
 
 
   ## Questions 
