@@ -1,11 +1,10 @@
-# My Awesome README Generator
+# Employee Management App
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description 
   
-  This is a README.md file generator. Its purpose is to help build a professional looking readme file for each project I add to my GitHub repositories.  It is useful information for others who are reviewing my work, wanting to use my work, and trying to gain an understanding of my work.
-
+  This project is an employee management app that is server side and runs in a terminal.  It is based in Node.js and MySql.  
 
   ## Table of Contents
 
@@ -19,14 +18,11 @@
 
   ## Installation 
   
-  Access the README generator by pulling the files  from my GitHub repository.  You can run the generator from your terminal command line by typing "node index.js". You will be given a series of prompts to follow.  When it is done, you will have created a new file called MYREADME.md where you can see all of your responses.
-
+  You need to run npm install to get the appropriate required files in the directory before running node index.js.
 
   ## Usage 
   
-  This program is used to generate a README.md file called MYREADME.md.  Here are some pictures of what the command line prompts look like as well as the finished product.
-
-
+  This program can be used by anyone who wants to build a database for their human resources area.
 
   ## License 
 
@@ -36,12 +32,13 @@
 
   ## Contributing 
   
-  In this section you can give credit to anyone who has assisted in the development of your project.  You can also let people know they can add to your project through specific steps. (I am not sure what I will include for that part.)
-
+  I want to use this space to thank my instructors and the Ask BCS Assistants for their unwaivering help when I needed it to complete this assignment.  I learned a great deal through trial and error and Google Fu.  Unfortunately, the Update Employee Role feature is not executable at this time, as I did not do the best at managing my time.  I will, however, update it and have it working in the near future.
+I hope you enjoy exploring this app.
 
   ## Tests 
   
-  In the future this section will contain information on how to run tests of the project. This material is not yet covered in class.
+  no testing available.
+
 
   ## Questions 
 
