@@ -1,10 +1,14 @@
-# Employee Management App
+# burger
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description 
   
-  This project is an employee management app that is server side and runs in a terminal.  It is based in Node.js and MySql.  
+  This project is supposed to be a display of using the ORM, controller, and model files to move information to and from the front end.  It is supposed to allow user input of a food item, and have that food be on either a consumed or not consumed list, with buttons that would allow the user to move the food item to the other list.
+
+I struggled quite a bit with this project and did not finish to my satisfaction.  While my get function worked, and at one point my create function worked, I could not get my update function or delete functions to work. I could not get my input area centered on the page, and could not get the image to be in the background.
+
+I WILL figure it all out over the weekend, but I am very frustrated with my own lack of ability to finish this app in time for the due date.  I hope consideration will be given if I get it running and update my files later. Thank you.
 
   ## Table of Contents
 
@@ -18,11 +22,11 @@
 
   ## Installation 
   
-  You need to run npm install to get the appropriate required files in the directory before running node index.js.
+  Be sure to npm install express, express-handlebars, and mysql before running.
 
   ## Usage 
   
-  This program can be used by anyone who wants to build a database for their human resources area.
+  When completed, users can enter a new burger, click a button to indicate they have consumed a burger, and delete a burger from the consumed list.
 
   ## License 
 
@@ -32,13 +36,11 @@
 
   ## Contributing 
   
-  I want to use this space to thank my instructors and the Ask BCS Assistants for their unwaivering help when I needed it to complete this assignment.  I learned a great deal through trial and error and Google Fu.  Unfortunately, the Update Employee Role feature is not executable at this time, as I did not do the best at managing my time.  I will, however, update it and have it working in the near future.
-I hope you enjoy exploring this app.
+  Thanks to classmates and instructors for helping me along the way.
 
   ## Tests 
   
-  no testing available.
-
+  No testing at this time.
 
   ## Questions 
 
