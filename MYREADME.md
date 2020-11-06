@@ -1,14 +1,10 @@
-# burger
+# React Portfolio
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
   ## Description 
   
-  This project is supposed to be a display of using the ORM, controller, and model files to move information to and from the front end.  It is supposed to allow user input of a food item, and have that food be on either a consumed or not consumed list, with buttons that would allow the user to move the food item to the other list.
-
-I struggled quite a bit with this project and did not finish to my satisfaction.  While my get function worked, and at one point my create function worked, I could not get my update function or delete functions to work. I could not get my input area centered on the page, and could not get the image to be in the background.
-
-I WILL figure it all out over the weekend, but I am very frustrated with my own lack of ability to finish this app in time for the due date.  I hope consideration will be given if I get it running and update my files later. Thank you.
+  This is my professional portfolio website. It includes a landing page that shows my photo and a short bio, as well as icons of the various developer tools I have learned and can use. It includes a portfolio page with cards that show my various projects, where the user can launch the project or view the GitHub repo. It also includes a contact form which will soon be functional and allow the user to contact me via email.
 
   ## Table of Contents
 
@@ -22,21 +18,28 @@ I WILL figure it all out over the weekend, but I am very frustrated with my own 
 
   ## Installation 
   
-  Be sure to npm install express, express-handlebars, and mysql before running.
+  As of now, this program deploys with a GitHub deployable link:
+
+https://dengelberger.github.io/ReactPortfolio/
+
+Soon there will be a Heroku deployment link as well when the contact form becomes operational.
+
 
   ## Usage 
   
-  When completed, users can enter a new burger, click a button to indicate they have consumed a burger, and delete a burger from the consumed list.
+  This app will be used by potential employers to learn about me and view projects I have done, as well as contact me if they wish.
 
   ## License 
 
-  This project is licensed under the MIT license.
+  This project is licensed under the GPL 3.0 license.
 
-  Click here for the MIT license: https://choosealicense.com/licenses/mit/
+  Click here for the GPL 3.0 license: https://choosealicense.com/licenses/gpl-3.0/
 
   ## Contributing 
   
-  Thanks to classmates and instructors for helping me along the way.
+  Thanks to my UPenn Bootcamp instructors who helped me in getting this app deployed and working out issues.
+
+
 
   ## Tests 
   
